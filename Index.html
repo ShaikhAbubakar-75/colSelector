@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="Style.css">
+    
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+    
+    
+    <title>Color Generator</title>
+    
+    <meta name="description" content="ColorSelector is your tool for customizing and selecting perfect color combinations for designs. Try our color palettes for web and graphic design projects.">
+    <meta property="og:title" content="ColorSelector - Choose and Customize Colors for Your Designs">
+    <meta property="og:description" content="Select the perfect color palette for your next web or graphic design project.">
+   
+</head>
+
+<body>
+    <header>
+        <div class="title">ColorSelector</div>
+    </header>
+    <main>
+        <div class="color-generator">
+
+            <div class="Hex-generator">
+                <p class="hex-color-value">#ffff</p>
+                <button class="hex-button">Create</button>
+                <button class="hex-copy" title="Copy">Copy</button>
+            </div>
+
+            <div class="rgb-generator">
+                <p class="rgb-color-value">#ffff</p>
+                <div>
+                    <label for="red">Red</label>
+                    <input type="range" id="red" min="0" max="255" value="0">
+                </div>
+
+                <div>
+                    <label for="green">Green</label>
+                    <input type="range" id="green" min="0" max="255" value="0">
+                </div>
+
+                <div>
+                    <label for="blue">Blue</label>
+                    <input type="range" id="blue" min="0" max="255" value="0">
+                </div>
+                <button class="rgb-button">Create</button>
+                <button class="rgb-copy">Copy</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

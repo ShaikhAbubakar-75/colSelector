@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  font-size: 1rem;
+}
+body {
+  padding: 20px;
+  font-size: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+
+.color-generator {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 10px;
+  height: 85vh;
+}
+.Hex-generator,
+.rgb-generator {
+  height: 100%;
+  flex: 1;
+  border-radius: 35px;
+}
+button {
+  padding: 8px 24px;
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+.Hex-generator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  transition: all 0.5s;
+}
+.Hex-generator::after {
+  transform: translateX(1, 1, 0, 45deg);
+}
+.rgb-generator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+#red {
+  color: red;
+}
+input[type="range"] {
+  margin-left: 10px;
+  -webkit-appearance: none;
+  height: 12px;
+  background: #dddddd66;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 1.2em;
+  }
+}
