@@ -1,5 +1,5 @@
 # colSelector
-<p>ColSelector - Choose and Customize Colors for Your Designs</p>p>
+<p>ColSelector - Choose and Customize Colors for Your Designs</p>
 
 <h2>Installation</h2>
 <p>git clone https://github.com/ShaikhAbubakar-75/colSelector.git</p>
