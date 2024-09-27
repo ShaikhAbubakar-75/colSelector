@@ -7,7 +7,7 @@
 
 <h2>Usage</h2>
 <p><b>Hex Color : </b>Click on create button until you find the color suited for your project then click on copy button & past it in your project</p>
-<p><b>RGB Color : </b>Click on create button until you find the color suited for your project then click on copy button & past it in your project</p>
+<p><b>RGB Color : </b>Choose from Red , Green & Blue then Click on create button until you find the color suited for your project then click on copy button & past it in your project</p>
 
 <h2>Features</h2>
 <li>User Friendly UI</li>
